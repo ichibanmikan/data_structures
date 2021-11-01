@@ -8,7 +8,7 @@ using namespace std;
 int main(){
     int n, m;
     cin >> n >> m;
-    graphRealise<int> g1(n);
+    graphRealise<int> g1(n); 
     g1.setType(0);
     for (int i=0; i<n; i++){
         g1.setVex(i, i+1);
